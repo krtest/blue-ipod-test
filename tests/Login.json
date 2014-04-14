@@ -38,8 +38,29 @@
       }
     },
     {
+      "type": "waitForElementPresent",
+      "locator": {
+        "type": "xpath",
+        "value": "/html/body/table/tbody/tr/td/div/div[2]/div/div/span/b/a[2]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "/html/body/table/tbody/tr/td/div/div[2]/div/div/span/b/a[2]"
+      }
+    },
+    {
+      "type": "waitForElementPresent",
+      "locator": {
+        "type": "xpath",
+        "value": "/html/body/div/div[2]/div/div/a/span"
+      }
+    },
+    {
       "type": "verifyTextPresent",
-      "text": "выйти"
+      "text": "Вход"
     }
   ],
   "data": {
