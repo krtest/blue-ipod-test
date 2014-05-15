@@ -1,9 +1,9 @@
 language: node_js
 before_script:
- - "npm install - g se-interpreter"
+  - "npm isntall -g se-interpreter"
 script:
-    - "se-interpreter example_multi_config.json"
+  - "se-interpreter interpreter_config.json"
 env:
-    global:
-        - SAUCE_USERNAME=krtest
-        - secure: 
+  global:
+    - SAUCE_USERNAME=krtest
+    - SAUCE_ACCESS_KEY: 879c0a5d-c79d-4e79-9ea6-a82784d78ce4
