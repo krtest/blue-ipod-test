@@ -6,4 +6,4 @@ script:
 env:
     global:
         - SAUCE_USERNAME=krtest
-        - secure: 879c0a5d-c79d-4e79-9ea6-a82784d78ce4
+        - secure: 
